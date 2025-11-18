@@ -18,9 +18,9 @@ const livesText = document.getElementById("lives");
 
 // Difficulty settings
 const difficulties = {
-    Easy: {tiles: 16, timer: 45},
-    Moderate: {tiles: 36, timer: 30},
-    Hard: {tiles: 56, timer: 20}
+    Easy: {tiles: 4, timer: 45},
+    Moderate: {tiles: 8, timer: 30},
+    Hard: {tiles: 16, timer: 20}
 };
 
 let currentDifficulty = "Easy";
@@ -191,3 +191,4 @@ document.getElementById("startBtn").onclick = () => {
     score = 0;
     startLevel();
 };
+
